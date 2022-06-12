@@ -1,0 +1,45 @@
+.container {
+  flex-direction: column;
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  background-color: darkkhaki;
+  height: 500px;
+}
+.title {
+  padding: 2rem;
+  justify-content: center;
+  font-size: 1.5em;
+
+  color: #fff;
+  margin: 0 auto;
+}
+
+input {
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+button {
+  display: block;
+  margin: 3rem auto;
+  width: 50%;
+  padding: 2rem;
+  border: 1px solid rgb(200, 21, 21);
+  background-color: rgb(135, 147, 120);
+  color: rgb(251, 251, 251);
+  font-size: 1.2em;
+}
+p {
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  padding: 2rem;
+  border: 1px solid rgb(200, 21, 21);
+  background-color: rgb(135, 147, 120);
+  color: rgb(251, 251, 251);
+  font-size: 1.2em;
+}
